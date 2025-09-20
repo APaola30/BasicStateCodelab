@@ -24,12 +24,13 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.codelabs.state.ui.theme.BasicStateCodelabTheme
 
+// Ana Paola Romero Mtz
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             BasicStateCodelabTheme {
-                // A surface container using the 'background' color from the theme
+
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
